@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    background-color: rgb(228, 228, 240);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: cover;
+}
+.home {
+    padding: 20px;
+    text-align: center;
+    background: url(back.jpg) no-repeat center center; 
+    background-size: cover; /* Ensures the background covers the entire div */
+    height: 100vh; /* Sets height to full viewport height */
+    color: white; /* Text color for better visibility */
+}
+section {
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 56px;
+    line-height: 1.2;
+    color: #e8096d;
+}
+.home-content h3{
+    color: #0a0d16;
+    font-size: 32px;
+}
+.home-content h3 span{
+    color: #5137e7;
+    margin: 80px 0;
+}
+.home-content p{
+    color: #06070a;
+    font-size: 20px;
+    
+}
+.social-icons {
+    font-size: 2rem;
+    margin-bottom: 3cm;
+}
+.section h2 {
+    padding: 20px;
+    text-align: center;
+}
+.about-content p{
+    margin-bottom: 10px;
+    color: #0d0f15;
+}
+.home {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;    /* Centers content vertically */
+    height: 100vh;          /* Full viewport height */
+}
+
+.home-content {
+    text-align: center;     /* Centers text inside the div */
+}
+.logo img {
+    height: 50px;                  /* Adjust height as needed */
+    width: auto;                   /* Maintain aspect ratio */
+}
+
+h1 {
+    margin: 0;                     /* Remove default margin */
+    font-size: 1.5em;              /* Font size for the title */
+}
+
+.nav-links {
+    list-style: none;              /* Remove bullet points */
+    padding: 0;                    /* Remove padding */
+    margin: 0;                     /* Remove margin */
+    display: flex;                 /* Align items in a row */
+}
+
+.nav-links li {
+    margin-left: 20px;             /* Space between links */
+}
+
+.nav-links a {
+    color: white;                  /* Link color */
+    text-decoration: none;         /* Remove underline */
+    font-weight: bold;             /* Bold text */
+}
+
+.nav-links a:hover {
+    color: #ffa500;                /* Change color on hover */
+}
+#about {
+
+    background: url(back.jpg) no-repeat center center; 
+    background-size: cover;
+     /* Light background for contrast */
+}
+.about-content{
+    padding: 60px;
+    text-align: center;/* Ensures the background covers the entire div */
+    height: 100vh; /* Sets height to full viewport height */
+    color: white; /* Text color for better visibility */   
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: auto;
+}
+.about-image {
+    width: 250px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: circular image */
+    margin-right: 2rem; /* Spacing between image and text */
+}
+.about-text {
+    flex: 2; /* Take remaining space */
+}
+.about-text h1{
+    color: #06070a;
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 2rem; /* Larger heading */
+    margin-bottom: 1rem; /* Space below heading */
+}
+
+p {
+    margin-bottom: 1rem; /* Space between paragraphs */
+    line-height: 1.6; /* Better readability */
+}
+.contact__h1{
+   padding-top: 0%;
+}
+.contact-container {
+    width: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(13, 12, 12);
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: white; /* Text color */
+}
+
+.contact-container h2 {
+    text-align: center;
+}
+
+.contact-container label {
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-container input, 
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgb(30, 30, 30);
+    color: white;
+}
+
+.contact-container button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 150, 136); /* Button color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background: rgb(0, 120, 100); /* Hover effect */
+}
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;            /* Center items vertically */
+    justify-content: space-between; /* Space between logo/title and nav */
+    padding: 5px;                 /* Padding around the header */
+    background-color: #333;        /* Background color */
+    color: white;                  /* Text color */
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+}
